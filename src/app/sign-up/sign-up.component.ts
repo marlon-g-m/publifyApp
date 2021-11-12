@@ -10,10 +10,12 @@ import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
   styleUrls: ['./sign-up.component.css']
 })
 export class SignUpComponent implements OnInit {
-  email:string;
-  password:string;
-  givenName:string;
-  familyName:string;
+
+  email : string ='';
+  password : string = '';
+  givenName : string = '';
+  familyName : string ='';
+
   constructor(private router:Router) { }
 
   ngOnInit(): void {
