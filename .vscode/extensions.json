@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "tabnine.tabnine-vscode",
+        "angular.ng-template",
+        "johnpapa.angular2",
+        "mikael.angular-beastcode",
+        "bradlc.vscode-tailwindcss"
+    ]
+}
