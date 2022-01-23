@@ -1,0 +1,37 @@
+<app-index-navbar></app-index-navbar>
+<section class="header relative pt-16 items-center flex h-screen max-h-860-px">
+  <div class="container mx-auto items-center flex flex-wrap">
+    <div class="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
+      <div class="pt-32 sm:pt-0">
+        <h2 class="font-semibold text-4xl text-blueGray-600">
+          Publify
+        </h2>
+        <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
+          Te permite editar y crear tus propias publicaciones Landing para captar y administrar a tus clientes ideales.
+          <a
+            href="https://tailwindcss.com/?ref=creativetim"
+            class="text-blueGray-600"
+            target="_blank"
+          >
+          </a>
+
+        </p>
+        <div class="mt-12">
+          <a
+          [routerLink]="['/home']"
+            target="_blank"
+            class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-green-600 active:bg-green-700 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+          >
+          Iniciar
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img
+    class="absolute top-0 b-auto right-0 pt-20 sm:w-6/12 sm:mt-0 w-10/12 max-h-100-px"
+    src="assets/img/publify.png.jpg"
+    alt="..."
+  />
+</section>
+<!--<app-footer></app-footer>-->

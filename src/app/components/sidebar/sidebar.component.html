@@ -1,0 +1,82 @@
+<!-- Sidebar -->
+<div id="sidebar-wrapper">
+  <ul class="sidebar-nav mt-3 ml-2 small" style="line-height: 1rem;">
+
+      <span class="menu-info ml-2">Principal</span>
+
+      <!-- Dashboard -->
+      <li >
+          <a [routerLink]="'dashboard'" >
+              <em class="fa fa-tachometer-alt"></em><span class="ml-2">Dashboard</span>
+          </a>
+      </li>
+      <!--
+      <li>
+          <a [routerLink]="'tracking/map'">
+              <em class="fas fa-map-marked-alt"></em><span class="ml-2">Tracking</span>
+          </a>
+      </li>
+      -->
+      <!-- Administración -->
+      <div class="mt-2" >
+          <span class="menu-info ml-2">Administrar</span>
+      </div>
+      <!-- Administración de Sensores -->
+      <li *>
+          <a [routerLink]="'admin/sensores'" >
+              <em class="fas fa-cogs"></em><span class="ml-2">algo</span>
+          </a>
+      </li>
+      <!-- Administración de Usuarios -->
+      <li >
+          <a [routerLink]="'admin/usuarios'" >
+              <em class="fas fa-users"></em><span class="ml-2">Usuarios</span>
+          </a>
+      </li>
+      <!-- Reportes
+      <div class="mt-2" *ngIf="permisoAdministrar">
+          <span class="menu-info ml-2">Reportes</span>
+      </div>
+       Reportes
+      <li *ngIf="permisoAdminSensores">
+          <a [routerLink]="'reportes'" (click)="hideTopMenu(false)">
+              <em class="fas fa-bell"></em><span class="ml-2">Alarmas</span>
+          </a>
+      </li>-->
+
+      <!--
+      <! -- Gestión Clientes -- >
+      <div class="mt-2" *ngIf="permisoCopec && permisoVerClientes">
+          <span class="menu-info ml-2">Clientes</span>
+      </div>
+      <! -- Ver Clientes -- >
+      <li *ngIf="permisoCopec && permisoVerClientes">
+          <a [routerLink]="'gestion/clientes'" (click)="hideTopMenu(false)">
+              <em class="fas fa-briefcase"></em><span class="ml-2">Gestionar</span>
+          </a>
+      </li>
+      <! -- Ver Asignaciones -- >
+      <li *ngIf="permisoCopec && permisoAsignaciones">
+          <a [routerLink]="'gestion/clientes/asociar-usuario'" (click)="hideTopMenu(false)">
+              <em class="fas fa-user-tag"></em><span class="ml-2">Asociar</span>
+          </a>
+      </li>
+      <! -- Dashboard Mantenimiento -- >
+      <div class="mt-2" *ngIf="permisoCopec && permisoMantencion">
+          <span class="menu-info ml-2">General</span>
+      </div>
+      <! -- Batería Dispositivos -- >
+      <li *ngIf="permisoCopec && permisoMantencion">
+          <a [routerLink]="'dashboard-mantencion'" (click)="hideTopMenu(true)">
+              <em class="fas fa-charging-station"></em><span class="ml-2">Batería Sensores</span>
+          </a>
+      </li>
+      <! -- Ubicación Dispositivos -- >
+      <li *ngIf="permisoCopec && permisoMantencion">
+          <a [routerLink]="'dashboard-mantencion/mapa-dispositivos'" (click)="hideTopMenu(true)">
+              <em class="fas fa-map-marked-alt"></em><span class="ml-2">Mapa Dispositivos</span>
+          </a>
+      </li>
+  -->
+  </ul>
+</div>

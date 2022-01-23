@@ -29,9 +29,7 @@ export class LoginComponent implements OnInit {
       if (tokens != null){
         console.log('usuario autenticado');
 
-        this.router.navigate(['home']);
-        alert('logeo completo');
-
+        this.router.navigate(['index']);
       }
     } catch (error){
       console.log(error);
