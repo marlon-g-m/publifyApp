@@ -7,6 +7,8 @@ import { IndexComponent } from './components/index/index.component';
 import { CrearLandingComponent } from './components/crear-landing/crear-landing.component';
 import { MisPublicacionesComponent } from './components/mis-publicaciones/mis-publicaciones.component';
 import { EstadisticaComponent } from './components/estadistica/estadistica.component';
+import { VisitasComponent } from './components/estadistica/visitas/visitas.component';
+import { ClientesComponent } from './components/estadistica/clientes/clientes.component';
 
 
 const routes: Routes = [
@@ -18,6 +20,10 @@ const routes: Routes = [
   {path:'crear-landing',component : CrearLandingComponent},
   {path:'mis-publicaciones',component : MisPublicacionesComponent},
   {path:'estadistica',component : EstadisticaComponent},
+  {path:'visitas',component : VisitasComponent},
+  {path:'clientes',component : ClientesComponent},
+  {path:'redes',component : VisitasComponent},
+
 
 
 
