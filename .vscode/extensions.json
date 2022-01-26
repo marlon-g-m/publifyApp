@@ -4,6 +4,13 @@
         "angular.ng-template",
         "johnpapa.angular2",
         "mikael.angular-beastcode",
-        "bradlc.vscode-tailwindcss"
+        "bradlc.vscode-tailwindcss",
+        "coenraads.bracket-pair-colorizer-2",
+        "johnpapa.vscode-peacock",
+        "johnpapa.angular-essentials",
+        "alexiv.vscode-angular2-files",
+        "formulahendry.auto-rename-tag",
+        "ecmel.vscode-html-css",
+        "pkief.material-icon-theme"
     ]
 }

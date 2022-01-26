@@ -17,7 +17,8 @@ import { CrearLandingComponent } from './components/crear-landing/crear-landing.
 import { MisPublicacionesComponent } from './components/mis-publicaciones/mis-publicaciones.component';
 import { EstadisticaComponent } from './components/estadistica/estadistica.component';
 import { VisitasComponent} from './components/estadistica/visitas/visitas.component';
-import { ClientesComponent} from './components/estadistica/clientes/clientes.component'
+import { ClientesComponent} from './components/estadistica/clientes/clientes.component';
+import { ModalAceptarLandingComponent } from './components/modals/aceptar-landing/modal.component';
 
 Amplify.configure({
   Auth:{
@@ -42,7 +43,8 @@ Amplify.configure({
     HomeNavbarComponent,
     CrearLandingComponent,
     MisPublicacionesComponent,
-    EstadisticaComponent,VisitasComponent,ClientesComponent
+    EstadisticaComponent,VisitasComponent,ClientesComponent,
+    ModalAceptarLandingComponent
   ],
   imports: [
     BrowserModule,
