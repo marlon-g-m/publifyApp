@@ -6,5 +6,6 @@ export class Landing {
   email= '';
   plantilla = '';
   url= '';
+  visitas= '';
 
 }

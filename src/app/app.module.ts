@@ -1,4 +1,5 @@
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 import Amplify,{Auth} from 'aws-amplify';
 import { AppRoutingModule } from './app-routing.module';
@@ -51,7 +52,8 @@ Amplify.configure({
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    NgxSpinnerModule
+    NgxSpinnerModule,
+    BrowserAnimationsModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
