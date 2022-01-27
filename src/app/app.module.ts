@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import Amplify,{Auth} from 'aws-amplify';
 import { AppRoutingModule } from './app-routing.module';
@@ -19,6 +19,7 @@ import { EstadisticaComponent } from './components/estadistica/estadistica.compo
 import { VisitasComponent} from './components/estadistica/visitas/visitas.component';
 import { ClientesComponent} from './components/estadistica/clientes/clientes.component';
 import { ModalAceptarLandingComponent } from './components/modals/aceptar-landing/modal.component';
+import { RedesSocialesComponent } from './components/estadistica/redes-sociales/redes-sociales.component';
 
 Amplify.configure({
   Auth:{
@@ -43,7 +44,7 @@ Amplify.configure({
     HomeNavbarComponent,
     CrearLandingComponent,
     MisPublicacionesComponent,
-    EstadisticaComponent,VisitasComponent,ClientesComponent,
+    EstadisticaComponent,VisitasComponent,ClientesComponent,RedesSocialesComponent,
     ModalAceptarLandingComponent
   ],
   imports: [
@@ -52,6 +53,7 @@ Amplify.configure({
     FormsModule,
     NgxSpinnerModule
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
   bootstrap: [AppComponent]
 })

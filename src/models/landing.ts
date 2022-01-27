@@ -1,4 +1,10 @@
 export class Landing {
-  constructor(
-    ){}
+  titulo= '';
+  idLanding= '';
+  subtitulo= '';
+  descripcion= '';
+  email= '';
+  plantilla = '';
+  url= '';
+
 }

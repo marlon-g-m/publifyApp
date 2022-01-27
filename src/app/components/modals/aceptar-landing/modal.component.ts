@@ -42,11 +42,10 @@ export class ModalAceptarLandingComponent implements OnInit {
 
   action() {
     this.showLoading()
-    this.router.navigate(['/', 'mis-publicaciones']);
+
+
     this.close()
-    //const tarifas = this.tablasData.getData('aprobadas')
-    //const results = this.tarifasService.liberarTarifaAprobada(tarifas)
-    //this.tasksService.addTasks(results, 'Liberar tarifa aprobada', 'La tarifa ha sido LIBERADA', 'Error al liberar la tarifa')
+    this.router.navigate(['/', 'mis-publicaciones']);
   }
 
   ngOnInit() {
